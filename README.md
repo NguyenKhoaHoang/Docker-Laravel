@@ -7,7 +7,7 @@ docker-compose up -d
 ## Access into app or mysql
 ```
 docker-compose exec app bash
-docker-compose exec app db
+docker-compose exec db bash
 mysql -u root -p
 ```
 
