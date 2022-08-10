@@ -1,3 +1,19 @@
+## Run Project by docker
+```
+docker-compose build
+docker-compose up -d
+```
+
+## Access into app or mysql
+```
+docker-compose exec app bash
+docker-compose exec app db
+mysql -u root -p
+```
+
+## Local host is localhost:8001
+## Password of mysql 123
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
